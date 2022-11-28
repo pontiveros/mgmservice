@@ -1,0 +1,6 @@
+"instance": 1,
+"pro_name": "Product name #1",
+"pro_price": 7.422083854675293,
+"pro_description": "This is the descrption of the product #1, the purpose of a product description is to provide shoppers with important information that helps them make a purchase decision.   Think of a product description like a salesperson who works 24/7 on your product pages to sell your stuff.",
+"pro_stock": 9,
+"status": 1

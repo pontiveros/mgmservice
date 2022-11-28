@@ -4,6 +4,7 @@ const express = require('express');
 const app = express();
 const port = 3001;
 const productRouter = require('./routes/products');
+const    itemRouter = require('./routes/items');
 
 app.use(express.json());
 
@@ -18,6 +19,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/products', productRouter);
+app.use('/items', itemRouter);
 
 /* Error handler middleware */
 app.use((err, req, res, next) => {
